@@ -1,0 +1,15 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="libgee"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-libgee0.8"
+VERSION=0.10.5
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GObject data structure library for Win64 toolchain"
+DESCRIPTION="Libgee is a collection library providing GObject-based interfaces
+and classes for commonly used data structures."
+HOMEPAGE="http://live.gnome.org/Libgee"
+
+CYGCONF_ARGS="--disable-introspection"
+MAKEOPTS+=" dist_vapi_DATA= "
