@@ -3,7 +3,7 @@ ORIG_PN="libgee"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-libgee0.8"
-VERSION=0.18.1
+VERSION=0.20.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GObject data structure library for Win64 toolchain"
